@@ -1,4 +1,8 @@
 #pragma once
+<<<<<<< HEAD
+=======
+#include <string>
+>>>>>>> feature-xml
 #include "Weather.h"
 
 class Service
