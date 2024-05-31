@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="pugixml.cpp" />
+    <ClCompile Include="pugixml-1.14\src\pugixml.cpp" />
     <ClCompile Include="Weather.cpp" />
     <ClCompile Include="WeatherService.cpp" />
     <ClCompile Include="XmlService.cpp" />
@@ -136,6 +136,9 @@
     <ClInclude Include="Service.h" />
     <ClInclude Include="Weather.h" />
     <ClInclude Include="XmlService.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="weather.xml" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
